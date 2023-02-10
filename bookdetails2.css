@@ -1,0 +1,304 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+
+
+
+img{
+    width: 170px;
+    height: 150px;
+    margin-right: auto;
+    cursor: pointer;
+    /* background-color: aqua; */
+}
+
+
+
+
+header{ /*BTS main logo*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+    margin-left: 60px;
+    /* background-color: aquamarine; */
+}
+
+.nav_links{ /* Header links Spacing*/
+    list-style: none;
+    padding-bottom: 70px;
+    cursor: pointer;
+    
+    
+}
+.nav_links2 { /* Header links style*/
+    list-style: none;
+    cursor: pointer;
+
+}
+.nav_links li{
+   display: inline-block;
+   padding:0px 20px;
+    padding-left: 40px;
+    font-weight: bold;
+   
+}
+.nav_links2 li{
+    display: inline-block;
+    padding:0px 20px;
+    padding-left: 90px;
+    /* background-color: aquamarine; */
+} 
+
+.bts{ /*BTS logo name*/
+    /* margin-right: 600px; */
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    left: 240px;   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.bts2{ /*BTS logo 2nd*/
+    top: 120px;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    left: 225px;  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif 
+}
+
+.bar{
+    background-color: #6667AB;
+    display: flex;
+    padding:15px;
+    width:auto; 
+}   
+
+
+.grid-container {
+    overflow: hidden;
+    /* display: grid; */
+    display: flex;
+    margin-left: auto;
+    padding-left: 350px;
+    grid-template-columns: 1fr 1fr;
+    /* grid-gap: -50px;  */
+}
+
+.mid_body{    /*Main body div for mid grid*/
+    padding-top: 30px;
+    /* background-color: aqua; */
+    overflow: hidden;
+    display: grid;
+    display: flex;
+    margin-left: 20px; /*Moves whole box over*/
+    padding-left: 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 100px; 
+}
+
+.mid_body p{
+    
+    max-width: 235px;
+    min-width: 3235px;
+    height: 400px;
+    padding-left: 8px;
+}
+
+.ul_text{
+    padding-left: 20px;
+    text-decoration: underline;
+    background-color: #d9d9ea;
+    line-height: 25px;
+    
+}
+.texxt{
+    padding-left: 20px; /* moves book*/
+    padding-top: 10px;
+    max-width: 255px; /* Move text closer to book*/
+    min-width: 255px; /* Move text closer to book*/
+    line-height: 25px;
+}
+
+.texxt_book{
+    margin-top: 25px;
+    width: 250px;
+    height: 420px;
+    /* margin-right: 10px; */
+    position: fixed;
+}
+
+
+.texxt2{
+    padding-left: 20px;
+    padding-top: 10px;
+    max-width: 309px;
+    min-width: 309px; 
+}
+
+.txm, .texxt2{ /* Text BG color*/
+    background-color: #d9d9ea;
+}
+.texxt3{ /* Text BG color*/
+
+    background-color: #d9d9ea;
+    margin-left: -360px;
+    padding-left: 350px; /* moves book over*/
+    
+    padding-top: 20px;
+    text-align:left
+    
+    max-width: 330px;
+    min-width: 330px;
+    height: 400px;
+    margin-top: 10px;
+}
+.texxt4{ /* Text BG color*/
+    
+    font-size: 15px;
+    line-height: 26px;
+    margin-right: 0px;
+    margin-left: -40px;
+    margin-top: 5px;
+    background-color: #d9d9ea;
+    max-width: 669px; /* changes the width on the purple box to right*/
+    min-width: 669px; /* changes the width on the purple box to right*/
+    
+    
+}
+
+
+.mid_body{ /*postion of 3 middle blocks*/
+    padding-left: 150px;
+    padding-right: 100px;
+    /* background-color: brown; */
+}
+
+.book_texx{ /* middle book postion*/
+    margin-left: 50px;
+
+    
+}
+
+.tezz{ /* text in middle box*/
+    line-height: 25px;
+    background-color: #d9d9ea;
+    margin-top: 10px  
+    
+}
+
+.button1 button{
+    margin-top: 20px;
+    margin-left: 28px;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    display: block;
+    border: none;
+    background-color: #6667ab;
+    color: #d9d9ea;
+    cursor: pointer;
+}
+
+.button1{
+    background-color: #d9d9ea;
+    margin-bottom: 20px;
+    
+}
+
+.button2 button{
+    font-size: medium;
+    margin-top: 60px;
+    margin-left: -40px;
+    text-align: center;
+    width: 220px;
+    height: 50px;
+    display: block;
+    border: none;
+    background-color: #6667ab;
+    color: #d9d9ea;
+    cursor: pointer;
+}
+
+
+
+.button2{
+    background-color: #d9d9ea;
+    margin-bottom: 20px;
+    
+}
+
+.top10{
+    padding: 40px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    margin-bottom: 50px;
+    /* width: 500px; */
+    width: auto;
+    height:220px  
+     
+    
+}
+
+.heart{
+    padding-left: 30px;
+    padding-top: 7px;
+    width: 200;
+    height: 200px;
+    padding: 9px 0px;
+    margin-bottom: 50px;
+    
+}
+
+.grid_child_2 img{
+    padding: 20px;
+    height: 90px;
+    width: 500px;
+    
+}
+
+
+
+.box_text{
+    /* padding-top: 20px; */
+    /* margin-top: 60px; */
+    height: 305px;
+    width: 500px;
+    /* margin-right: 50px; */
+    
+}
+
+.box{
+    
+    margin-right: 50px;
+    margin-top: 80px;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    height: auto; 
+     
+}
+
+.space{
+    padding-top: 80px;
+}
+
+.rate{
+    margin-top: 4px;
+    margin-left: 450px;
+}
+.rate2{
+    margin-top: 0px;
+    margin-left: 450px;
+}
+.rate img{
+    margin-left: -2px;
+    width: 20px;
+    height: 20px;
+}
+

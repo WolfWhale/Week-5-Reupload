@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+
+
+
+img{
+    width: 170px;
+    height: 150px;
+    margin-right: auto;
+    cursor: pointer;
+    /* background-color: aqua; */
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+    /* background-color: aquamarine; */
+}
+
+.nav_links {
+    list-style: none;
+    padding-bottom: 70px;
+    
+}
+.nav_links2 {
+    list-style: none;
+}
+.nav_links li{
+   display: inline-block;
+   padding:0px 20px;
+    padding-left: 20px;
+    font-weight: bold;
+   
+}
+.nav_links2 li{
+    display: inline-block;
+    padding:0px 20px;
+    padding-left: 60px;
+    
+    
+    
+   
+    /* background-color: aquamarine; */
+} 
+
+.bts{
+    /* margin-right: 600px; */
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    left: 180px;   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.bts2{
+    top: 120px;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    left: 160px;  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif 
+}
+
+.signup_logo{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 65px;
+    width: 600px;
+    height: 600px;
+    background-color: rgb(255, 136, 0);
+}
+
+.signup_right{
+   background-color: blue;
+    display: flex;
+   right: -40px;
+    padding-right: 40px;   
+}
+
+.text_b{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 65px;
+    width: 600px;
+    height: 600px;
+    background-color: rgb(255, 136, 0);
+}
+
+
+.bar{
+    background-color: #6667AB;
+    display: flex;
+    padding:15px;
+    width:auto; 
+    
+}   
+
+
+.grid-container {
+    display: grid;
+    margin-left: auto;
+    padding-left: 200px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    width: auto;
+    
+    
+   
+    
+}
+
+.grid_child_1{
+    padding-top: 20px;
+    
+    
+    /* position: relative; */
+    
+    /* background-color: aqua; */
+}
+.grid_child_2{
+    padding-top: 20px;
+    
+    
+    /* background-color: brown; */
+    /* width: auto; */
+    /* position: relative; */
+}
+
+.grid_child_1 img{
+    width: 600px;
+    height: 600px;
+   
+    
+    
+    /* width: auto; */
+    /* width: auto;
+    height: auto; */
+}
+.grid_child_2 img{
+    width:600px;
+    height: 600px;
+    
+    
+    /* width: auto; */
+    /* width: auto;
+    height: auto; */
+}
