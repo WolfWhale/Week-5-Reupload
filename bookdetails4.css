@@ -174,8 +174,8 @@ header{ /*BTS main logo*/
 
 
 .mid_body{ /*postion of 3 middle blocks*/
-    padding-left: 150px;
-    padding-right: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
     /* background-color: brown; */
 }
 

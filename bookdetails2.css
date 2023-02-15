@@ -51,6 +51,7 @@ header{ /*BTS main logo*/
     display: inline-block;
     padding:0px 20px;
     padding-left: 90px;
+    font-weight: bold;
     /* background-color: aquamarine; */
 } 
 
@@ -95,7 +96,7 @@ header{ /*BTS main logo*/
     overflow: hidden;
     display: grid;
     display: flex;
-    margin-left: 20px; /*Moves whole box over*/
+    margin-left: auto; /*Moves whole box over*/
     padding-left: 200px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 100px; 
@@ -117,19 +118,22 @@ header{ /*BTS main logo*/
     
 }
 .texxt{
-    padding-left: 20px; /* moves book*/
-    padding-top: 10px;
-    max-width: 255px; /* Move text closer to book*/
-    min-width: 255px; /* Move text closer to book*/
-    line-height: 25px;
+    
+ padding: auto; 
+    
+    
 }
 
 .texxt_book{
     margin-top: 25px;
-    width: 250px;
-    height: 420px;
+    max-width: 100%;
+    height: 300px;
+    right: 190px;
+    
+    /* width: 250px;
+    height: 420px; */
     /* margin-right: 10px; */
-    position: fixed;
+    position:relative;
 }
 
 
@@ -146,35 +150,31 @@ header{ /*BTS main logo*/
 .texxt3{ /* Text BG color*/
 
     background-color: #d9d9ea;
-    margin-left: -360px;
-    padding-left: 350px; /* moves book over*/
+    margin-left: -560px;
+    padding-left: 280px; /* moves book over*/
     
     padding-top: 20px;
     text-align:left
     
-    max-width: 330px;
-    min-width: 330px;
-    height: 400px;
+   
     margin-top: 10px;
 }
 .texxt4{ /* Text BG color*/
     
     font-size: 15px;
     line-height: 26px;
-    margin-right: 0px;
-    margin-left: -40px;
+    width: auto;
+    height: auto;
     margin-top: 5px;
     background-color: #d9d9ea;
-    max-width: 669px; /* changes the width on the purple box to right*/
-    min-width: 669px; /* changes the width on the purple box to right*/
-    
     
 }
 
 
 .mid_body{ /*postion of 3 middle blocks*/
-    padding-left: 150px;
-    padding-right: 100px;
+    padding-right: 30px;
+    
+    
     /* background-color: brown; */
 }
 
@@ -244,33 +244,7 @@ header{ /*BTS main logo*/
     
 }
 
-.heart{
-    padding-left: 30px;
-    padding-top: 7px;
-    width: 200;
-    height: 200px;
-    padding: 9px 0px;
-    margin-bottom: 50px;
-    
-}
 
-.grid_child_2 img{
-    padding: 20px;
-    height: 90px;
-    width: 500px;
-    
-}
-
-
-
-.box_text{
-    /* padding-top: 20px; */
-    /* margin-top: 60px; */
-    height: 305px;
-    width: 500px;
-    /* margin-right: 50px; */
-    
-}
 
 .box{
     
@@ -290,15 +264,23 @@ header{ /*BTS main logo*/
 
 .rate{
     margin-top: 4px;
-    margin-left: 450px;
+    margin-left: 50px;
 }
 .rate2{
     margin-top: 0px;
-    margin-left: 450px;
+    margin-left: 70px;
 }
 .rate img{
     margin-left: -2px;
     width: 20px;
     height: 20px;
 }
+
+@media only screen and (min-width:390) {
+    .mid_body{ /*postion of 3 middle blocks*/
+        width: 100%;
+        /* background-color: brown; */
+    }
+}
+
 

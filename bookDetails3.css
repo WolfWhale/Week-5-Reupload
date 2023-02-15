@@ -51,6 +51,7 @@ header{ /*BTS main logo*/
     display: inline-block;
     padding:0px 20px;
     padding-left: 90px;
+    font-weight: bold;
     /* background-color: aquamarine; */
 } 
 
@@ -80,6 +81,7 @@ header{ /*BTS main logo*/
 
 .armyCon{
     /* background-color: aqua; */
+    margin: auto;
     margin-top: -60px;
     padding-bottom: 30px;
     
@@ -87,6 +89,7 @@ header{ /*BTS main logo*/
 
 .armyzz{
     /* background-color: aquamarine; */
+    
     margin-left: 364px;
     width: 22px;
     height: 40px;
@@ -111,7 +114,7 @@ header{ /*BTS main logo*/
     overflow: hidden;
     display: grid;
     display: flex;
-    margin-left: 20px; /*Moves whole box over*/
+    margin-left: auto; /*Moves whole box over*/
     padding-left: 200px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 100px; 
@@ -133,11 +136,7 @@ header{ /*BTS main logo*/
     
 }
 .texxt{
-    padding-left: 20px; /* moves book*/
-    padding-top: 10px;
-    max-width: 255px; /* Move text closer to book*/
-    min-width: 255px; /* Move text closer to book*/
-    line-height: 25px;
+    padding: auto;
 }
 
 .texxt_book{
@@ -145,7 +144,7 @@ header{ /*BTS main logo*/
     width: 250px;
     height: 420px;
     /* margin-right: 10px; */
-    position: fixed;
+    position: relative;
 }
 
 
@@ -163,34 +162,29 @@ header{ /*BTS main logo*/
 
     background-color: #d9d9ea;
     margin-left: -360px;
-    padding-left: 350px; /* moves book over*/
+    padding-left: 300px; /* moves book over*/
     
     padding-top: 20px;
     text-align:left
     
-    max-width: 330px;
-    min-width: 330px;
-    height: 400px;
+    
     margin-top: 10px;
 }
 .texxt4{ /* Text BG color*/
-    
-    font-size: 15px;
+   
+     font-size: 15px;
     line-height: 26px;
-    margin-right: 0px;
-    margin-left: -40px;
+    width: auto;
+    height: auto;
+    height: -2px;
     margin-top: 5px;
     background-color: #d9d9ea;
-    max-width: 669px; /* changes the width on the purple box to right*/
-    min-width: 669px; /* changes the width on the purple box to right*/
-    
-    
 }
 
 
 .mid_body{ /*postion of 3 middle blocks*/
-    padding-left: 150px;
-    padding-right: 100px;
+    padding-left: 30px;
+    
     /* background-color: brown; */
 }
 
@@ -264,33 +258,7 @@ header{ /*BTS main logo*/
     
 }
 
-.heart{
-    padding-left: 30px;
-    padding-top: 7px;
-    width: 200;
-    height: 200px;
-    padding: 9px 0px;
-    margin-bottom: 50px;
-    
-}
 
-.grid_child_2 img{
-    padding: 20px;
-    height: 90px;
-    width: 500px;
-    
-}
-
-
-
-.box_text{
-    /* padding-top: 20px; */
-    /* margin-top: 60px; */
-    height: 305px;
-    width: 500px;
-    /* margin-right: 50px; */
-    
-}
 
 .box{
     
@@ -328,4 +296,11 @@ header{ /*BTS main logo*/
     
     padding-right: 90px;
     background-color:#d9d9ea;
+}
+
+@media only screen and (min-width:390) {
+    .mid_body{ /*postion of 3 middle blocks*/
+        width: 100%;
+        /* background-color: brown; */
+    }
 }

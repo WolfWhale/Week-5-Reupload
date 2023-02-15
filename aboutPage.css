@@ -105,10 +105,10 @@ header{
 .grid-container {
     display: grid;
     margin-left: auto;
-    padding-left: 200px;
+    padding-left: auto ;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
-    width: auto;
+    
     
     
    
@@ -117,6 +117,7 @@ header{
 
 .grid_child_1{
     padding-top: 20px;
+    
     
     
     /* position: relative; */
@@ -133,8 +134,8 @@ header{
 }
 
 .grid_child_1 img{
-    width: 600px;
-    height: 600px;
+    width: auto;
+    height: auto;
    
     
     
@@ -143,8 +144,8 @@ header{
     height: auto; */
 }
 .grid_child_2 img{
-    width:600px;
-    height: 600px;
+    width: auto;
+    height: auto;
     
     
     /* width: auto; */
